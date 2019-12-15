@@ -1,0 +1,254 @@
+\documentclass[10pt]{article}
+\usepackage{array, xcolor, lipsum, bibentry}
+\usepackage[margin=1.8cm]{geometry}
+\usepackage{lastpage}
+\usepackage{float}
+\usepackage{bibentry}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{datetime}
+%\usepackage{titleps}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{mwe}
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH], \THEYEAR}
+
+\fancyhf{}
+%\fancyhead[L]{\includegraphics[width=0.15\textwidth]{NRELlogo.png}\textbf{\hspace{5.in}\monthyeardate\today}}
+% \chead{\textbf{Vita \hspace{2.25in}}
+% \raisebox{-.3\height}{\includegraphics[width=0.2\textwidth]{NRELlogo.png}}\textbf{\hspace{2.25in}\monthyeardate\today}}
+\chead{
+\raisebox{-0.3\height}{\includegraphics[width=0.3\textwidth]{NRELlogo.png}}\textbf{\hspace{3.7in}\monthyeardate\today~~}}
+
+\pagestyle{fancy}
+\setlength\headheight{35.0pt}
+\addtolength{\textheight}{-35.0pt}
+
+\cfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+ 
+%\date{}
+ 
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+  
+\begin{document}
+\begin{table}[H]
+{\def\arraystretch{1}\tabcolsep=0pt
+%\vspace*{-\baselineskip}
+\begin{tabular}{p{0.72\linewidth}p{0.08\linewidth}p{0.2\linewidth}}
+  \multirow{1}{*}{\LARGE \textbf{Yi-Hsiang Yu}}         & \multicolumn{2}{l}{\textbf{Senior Research Scientist}} \\
+                                                        &        &  \\
+  Water Power Program | National Wind Technology Center & Phone: & {1~(303)~384-7143} \\
+  National Renewable Energy Laboratory (NREL)           & Email: & {yi-hsiang.yu@nrel.gov} \\
+  15013 Denver West Parkway, Golden, CO 80401-3305      &        &  \\
+\end{tabular}%
+} \end{table}
+
+\section*{Education}\label{education}
+\begin{table}[H]
+{\def\arraystretch{1}\tabcolsep=0pt
+\vspace*{-\baselineskip}
+\begin{tabular}{p{0.15\linewidth}p{0.75\linewidth}}
+  2002--2008 & Ph.D., Department of Civil, Architectural, and Environmental Engineering, The University of Texas at Austin \\
+  1998--2000 & M.S., Department of Marine Environment and Engineering, National Sun Yet-Sen University, Kaohsiung, Taiwan \\
+  1994--1998 & B.S., Department of Marine Environment and Engineering, National Sun Yet-Sen University, Kaohsiung, Taiwan \\
+\end{tabular}%
+} \end{table}
+
+\section*{Current and Previous Positions}\label{positions}
+\begin{table}[H]
+{\def\arraystretch{1}\tabcolsep=0pt
+\vspace*{-\baselineskip}
+\begin{tabular}{p{0.15\linewidth}p{0.85\linewidth}}
+  2015--Present & Senior Research Scientist, National Renewable Energy Laboratory \\  
+  2012--2015    & Research Scientist, National Renewable Energy Laboratory \\
+  2010--2012    & Postdoctoral Researcher, National Renewable Energy Laboratory \\
+  2008--2010    & Postdoctoral Research Fellow, The University of Texas at Austin \\
+  2002--2008    & Doctoral Research Assistant, The University of Texas at Austin \\
+  1998--2000    & Graduate Research Assistant and Teaching Assistant, National Sun Yet-Sen University \\
+  \end{tabular}%
+} \end{table}
+
+\section*{Selected Research Projects and Grants}
+\begin{table}[H]
+\vspace*{-\baselineskip}
+{\def\arraystretch{1}\tabcolsep=0pt
+\begin{tabular}{p{0.15\linewidth}p{0.6\linewidth}p{0.30\linewidth}}
+  2013--Present & WEC Modeling (Principal investigator since 2015)                  &~~~~$\$5,000$K (since 2013)\\
+  2019--Present & Array and Power Management Simulation (Principal investigator)    &~~~~$\$300$K\\
+  2017--Present & Wave-Powered Desalination Analysis (Technical support)            &~~~~$\$500$K\\
+  2017--2019 & M3 Wave Small Business Vouchers Support (Principal investigator)     &~~~~$\$100$K\\
+  2014--2017 & Development of Feed-forward Control Strategies for Wave Energy Conversion Technologies (Advisory Support) &~~~~$\$750$K \\
+  2015--2016    & OPT's PowerBuoy float optimization (Principal investigator)       &~~~~$\$150$K\\
+  2014--2015    & Ocean Energy Buoy CFD Simulations (Principal investigator)        &~~~~$\$100$K\\
+  2010--2014    & Reference Model Project (Technical support)                       &~~~~$\$1,200$K\\
+\end{tabular}%
+} \end{table}
+
+\section*{Research Interests}
+\begin{itemize}[leftmargin=*]
+\setlength{\itemsep}{-0.5mm}
+   \item Ocean renewable energy research and development, including system performance analysis, extreme condition characterization, system design and optimization and advanced control applications
+   \item Ship hydrodynamics, offshore structure, offshore wind platform hydrodynamics, and rotor performance analyses
+   \item Computational hydrodynamics, computational fluid dynamics simulation, numerical method development, and high performance computing
+\end{itemize}
+
+\section*{Professional Activities}
+\subsection*{Editorship}
+\begin{table}[H]
+{\def\arraystretch{1.25}\tabcolsep=0pt
+\vspace*{-\baselineskip}
+\begin{tabular}{p{0.15\linewidth}p{0.85\linewidth}}
+  2015--Present & Journal of Offshore Mechanics and Arctic Engineering, American Society of Mechanical Engineers, Associate Editor
+  \end{tabular}%
+} \end{table}
+
+\subsection*{Conference Session Chair and Topic Organizer}
+\begin{itemize}[leftmargin=*]
+\setlength{\itemsep}{-0.5mm}
+\item 38th International Conference on Ocean, Offshore and Arctic Engineering, OMAE 2019, Glasgow, Scotland: Ocean Renewable Energy Symposium, Wave Energy, Topic Organizer
+\item 37th International Conference on Ocean, Offshore and Arctic Engineering, OMAE 2018, Madrid, Spain: Ocean Renewable Energy Symposium, Wave Energy, Topic Organizer
+\item 36th International Conference on Ocean, Offshore and Arctic Engineering, OMAE 2017, Trondheim, Norway: Ocean Renewable Energy Symposium, Wave Energy, Topic Organizer
+\item 35th International Conference on Ocean, Offshore and Arctic Engineering, OMAE 2016, Busan, South Korea: Ocean Renewable Energy Symposium, Wave Energy, Topic Organizer
+\item 34th International Conference on Ocean, Offshore and Arctic Engineering, OMAE 2015, St. John's, Newfoundland, Canada: Ocean Renewable Energy Symposium, Wave Energy, Session Chair
+\item 33rd International Conference on Ocean, Offshore and Arctic Engineering, OMAE 2014, San Francisco, CA, United States: Ocean Renewable Energy Symposium, Wind and Current Energy, Session Chair
+\item 21th International Offshore (Ocean) and Polar Engineering Conference, ISOPE 2011, Maui, Hawaii, United States: Renewable Energy IX, Wave Energy 2, Session Chair
+\end{itemize}
+
+% \subsection*{Journal Reviewer}
+% \begin{table}[H]
+% {\def\arraystretch{1}\tabcolsep=0pt
+% \vspace*{-\baselineskip}
+% \begin{tabular}{p{0.75\linewidth}p{0.25\linewidth}}
+%   Renewable Energy                       & Elsevier \\
+%   Ocean Engineering                      & Elsevier \\
+%   Journal of Fluids and Structures       & Elsevier \\
+%   International Journal of Marine Energy & Elsevier \\
+%   Journal of Offshore Mechanics and Arctic Engineering & ASME \\
+%   Part M: Journal of Engineering for the Maritime Environment & SAGE Journals\\
+%   Energies & MDPI \\
+%   Journal of Marine Science and Engineering & MDPI \\
+%   Journal of Renewable and Sustainable Energy & AIP Publishing \\
+%   IEEE Transactions on Energy Conversion & \\
+%   Journal of Marine Science and Technology - Taiwan & \\
+%   \end{tabular}%
+% } \end{table}
+
+% \subsection*{Selected Honors and Awards}\label{selected-honors-and-awards}
+% \begin{table}[H]
+% %%%\centering
+% {\def\arraystretch{1}\tabcolsep=0pt
+% \vspace*{-\baselineskip}
+% \begin{tabular}{p{0.10\linewidth}p{0.85\linewidth}}
+%   2016 & Renewable Energy Top Reviewer Award \\
+%   2015 & Renewable Energy Top Reviewer Award \\
+%   2012 & NREL Director's Award \\
+% \end{tabular}%
+% } \end{table} 
+
+\bibliographystyle{asmems4}
+\nobibliography{My_Collection}
+ 
+\section*{Publications}
+\subsection*{Journal Publications}
+\begin{enumerate}[label={[\arabic*]}]
+\setlength{\itemsep}{-1mm}
+\leftskip-0.13in % for numbers
+  \item Ruehl K., Forbush D., Yu Y.-H., and Tom N. (Accepted). "Experimental and numerical comparisons of a dual flap floating oscillating surge wave energy converter in regular waves,"  \textit{Ocean Engineering}.
+   \item\bibentry{Wendt2019a},
+   \item\bibentry{VanRij2019}.
+   \item\bibentry{Xu2019}.
+   \item\bibentry{Coe2019}.
+   \item\bibentry{Yu2018Desal}.
+   \item\bibentry{Coe2017}.
+   \item\bibentry{Tom2017b}.
+   \item\bibentry{VanRij2017}.
+   \item\bibentry{Sang2017}.
+   \item\bibentry{Tom2017}.
+   \item\bibentry{Babarit2017}.
+   \item\bibentry{Tom2016AOR}.
+   \item\bibentry{Tom2016a}.
+   \item\bibentry{Muljadi2015}.
+   \item\bibentry{Yu2013CF}.
+   \item\bibentry{li2012synthesis}.
+   \item\bibentry{Kinnas2012}.
+   \item\bibentry{Chu2010}.
+   \item\bibentry{Yu2009}. 
+\end{enumerate}
+
+% \subsection*{Journal Publications in Preparation}
+% \begin{enumerate}[label={[\arabic*]}]
+% \setlength{\itemsep}{-1mm}
+% \leftskip-0.13in % for numbers
+% \item Guo Y., Yu Y.-H. and van Rij J.. "Multibody Dynamic Analysis of Wave Energy Converters Considering Structural Integrity,” \textit{Applied Ocean Research} (in preparation).
+% \end{enumerate}
+
+\subsection*{Technical Reports}
+\begin{enumerate}[label={[\arabic*]}]
+\setlength{\itemsep}{-1mm}
+\leftskip-0.13in % for numbers
+   \item\bibentry{Yu2015a}.
+   \item\bibentry{Yu2015b}.
+   \item\bibentry{Coe2014a}.
+   \item\bibentry{Neary2014}.   
+\end{enumerate}
+
+\subsection*{Selected Recent Conference Publications}
+\begin{enumerate}[label={[\arabic*]}]
+\setlength{\itemsep}{-1mm}
+\leftskip-0.13in % for numbers
+   \item\bibentry{VanRij2019a}.
+   \item\bibentry{Mankle2019}.
+   \item\bibentry{Tom2019}.
+   \item\bibentry{Rosenberg2019}.
+   \item\bibentry{Ringwood2019}.
+   \item\bibentry{VanRij2019b}.
+   \item\bibentry{Stefek2019}.
+   \item\bibentry{Wendt2018}.
+%   \item\bibentry{Nielsen2018}.
+   \item\bibentry{Yu2018}.
+   \item\bibentry{VanRij2018}.
+   \item\bibentry{Guo2017}.
+   \item\bibentry{Ringwood2017}.   
+   \item\bibentry{Wendt2017}. 
+   \item\bibentry{VanRij2017b}.
+   \item\bibentry{Yu2017}.
+%   \item\bibentry{VanRij2016}.
+   \item\bibentry{Sirnivas2016}.
+   \item\bibentry{Ruehl2016}.
+   \item\bibentry{Quon2016}.
+   \item\bibentry{Tom2016}.
+%   \item\bibentry{Michelen2016}.
+%   \item\bibentry{Coe2016}.
+   \item\bibentry{Tom2015}.
+%   \item\bibentry{Tom2015a}.
+   \item\bibentry{Yu2015}.
+   \item\bibentry{Tom2015b}.
+   \item\bibentry{Lawson2015}.
+   \item\bibentry{Jenne2015}.
+%   \item\bibentry{Sang2015}. 
+   \item\bibentry{Yu2014a}.
+   \item\bibentry{Lawson2014}.
+   \item\bibentry{Ruehl2014}.
+   \item\bibentry{Yu2014}.
+%   \item\bibentry{McComb2013}.
+%   \item\bibentry{Li2012}.
+%    \item\bibentry{Yu2011a}.
+%   \item\bibentry{Yu2010}.
+%   \item\bibentry{Kinnas2010}.
+%   \item\bibentry{Kinnas2010a}.
+%   \item\bibentry{Kinnas2009}.
+%   \item\bibentry{Yu2009a}.
+%   \item\bibentry{Yu2008a}.
+%   \item\bibentry{Kinnas2006}.
+%   \item\bibentry{Yu2005}.
+%   \item\bibentry{Vinayan2005}.
+%   \item\bibentry{Chen2004}.
+%   \item\bibentry{Kinnas2003b}.
+\end{enumerate}
+
+\end{document}
